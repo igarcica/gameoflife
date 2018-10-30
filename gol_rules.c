@@ -1,3 +1,15 @@
+#include "gol_rules.h"
+
+int width;
+int height;
+
+//Set the width and height of the board
+void setBoardSize(int width, int height)
+{
+	width=width;
+	height=height;
+}
+
 // Print a whole board as lines
 // NOT NEEDED AS WE WILL USE NCURSES
 int printBoard(char * b)

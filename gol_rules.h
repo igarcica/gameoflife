@@ -26,6 +26,8 @@
 #define RULE_FCNS
 
 // Function definitions
+void setBoardSize(int, int);
+
 int printBoard(char *);
 
 int setCell(char *, int, int);
